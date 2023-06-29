@@ -74,6 +74,23 @@ In summary, the analysis reveals that being female, traveling in Pclass 1, board
 3) People in the age range of 20 to 40 had a higher chance of not surviving 
 4) People travelling with smaller families had a higher chance of survival as compared to people travelling with large families and travelling alone
 
+# Titanic-Classification-summary
+Comparison of Classification Algorithms on the Titanic Dataset
 
+Process Flow
+
+Load the Titanic dataset,on which EDA and feature engineering, and scaling has been performed in exploration stage
+Perform data preprocessing and feature engineering as required.
+Split the dataset into training and testing sets using train_test_split() function from sklearn.model_selection.
+Initialize the decision tree, logistic regression, and KNN classification models.
+Fit the models on the training data using their respective fit() functions.
+Predict the labels for both the training and testing data using the predict() function of each model.
+Calculate and store the accuracy, precision, recall, F1 score, and AUC ROC for each model using appropriate metrics from sklearn.metrics.
+Plot the AUC curve for each model using the roc_curve() and auc() functions from sklearn.metrics.
+Create a dataframe to store the performance metrics for each model, including the train accuracy, test accuracy, train precision, test precision, train recall, test recall, train F1 score, test F1 score, train AUC ROC, and test AUC ROC.
+Print the performance metrics in a tabular format.
+This created dataframe stores the performance metrics for each model, allowing for easy comparison and analysis of the classification algorithms on the Titanic dataset.                            
+
+  
 
 
